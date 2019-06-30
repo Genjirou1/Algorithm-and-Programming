@@ -1,9 +1,8 @@
-package rumah;
-import   rumah.Mahasiswa;
-public class TestUas {
+package rumah.PraUas;
+
+public class TestUas2 {
     public static void main(String[] args) {
         int jumlah = 5;
-
         Mahasiswa TIFC[] = new Mahasiswa[jumlah];
             TIFC[0] =new Mahasiswa("aa","123",90,2003);
             TIFC[1] =new Mahasiswa("aab","1223",45,2004);
@@ -14,7 +13,7 @@ public class TestUas {
 
         for (int i = 0; i <TIFC.length-1 ; i++) {
             for (int j = 0; j <TIFC.length-1-i ; j++) {
-               if(TIFC[j].nilai>TIFC[j+1].nilai){
+               if(TIFC[j].nama.compareTo(TIFC[j+1].nama)>0){
                    Mahasiswa temp = TIFC[j];
                    TIFC[j]= TIFC[j+1];
                    TIFC[j+1]=temp;

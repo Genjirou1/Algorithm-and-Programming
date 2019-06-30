@@ -1,4 +1,4 @@
-package rumah;
+package rumah.PraUas;
 
 public class TestUas3 {
     public static void main(String[] args) {

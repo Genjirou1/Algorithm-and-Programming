@@ -1,4 +1,4 @@
-package rumah;
+package rumah.PraUas;
 
 public class Mahasiswa {
     public String nama;

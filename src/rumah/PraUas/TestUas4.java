@@ -1,8 +1,4 @@
-package rumah;
-
-import kampus.Arrays;
-import rumah.Mahasiswa;
-import rumah.testing.Array;
+package rumah.PraUas;
 
 public class TestUas4 {
     public static void main(String[] args) {

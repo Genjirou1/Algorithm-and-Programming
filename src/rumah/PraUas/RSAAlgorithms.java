@@ -1,4 +1,4 @@
-package rumah;
+package rumah.PraUas;
 
 import java.math.*;
 import java.util.Scanner;
